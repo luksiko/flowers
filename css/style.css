@@ -79,6 +79,25 @@ body {
 	border-bottom: 1px solid #4c4c4c;
 }
 
+.hero-image-left {
+	position: absolute;
+	width: 93px;
+	height: 153px;
+	padding: 0;
+	left: 100px;
+	z-index: -1;
+}
+
+.hero-image-right {
+	position: absolute;
+	width: 71px;
+	height: 61px;
+	padding: 0;
+	right: 150px;
+	top: 420px;
+	z-index: -1;
+}
+
 .hero-title {
 	font-family: "Gotham Pro Medium", sans-serif;
 	text-align: center;
@@ -181,14 +200,15 @@ img.slide-image {
 }
 
 .review-slide {
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
 .review-text {
 	font-size: 18px;
 	letter-spacing: 0.18px;
 	line-height: 1.4;
+	padding-right: 15px;
 }
 
 .review-link {
@@ -240,6 +260,10 @@ img.slide-image {
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
+}
+
+.slider-button svg path:hover {
+	fill: #f24841
 }
 
 .reviews .slider-button svg path {
