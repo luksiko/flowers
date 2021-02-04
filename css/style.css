@@ -45,6 +45,10 @@ body {
 	color: #ff3469;
 }
 
+.text-color-red-sale {
+	color: #ff1844;
+}
+
 .header-contacts {
 	text-align: right;
 }
@@ -124,7 +128,18 @@ body {
 	width: 100%;
 	text-align: center;
 	margin-top: 83px;
-	margin-bottom: 83px;
+	margin-bottom: 87px;
+}
+
+.flowers-slider .slider-button-prev::after,
+.flowers-slider .slider-button-next::after {
+	color: gray;
+}
+
+.reviews-slider .slider-button-prev::after,
+.reviews-slider .slider-button-next::after {
+	color: red;
+	font-size: 30px;
 }
 
 :root {
@@ -268,4 +283,109 @@ img.slide-image {
 
 .reviews .slider-button svg path {
 	fill: #f24841
+}
+
+.sale {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.sale-title {
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+}
+
+.sale-description {
+	font-size: 18px;
+	letter-spacing: 0.18px;
+}
+
+.sale-card {
+	border: 1px solid #fff;
+	align-items: center;
+}
+
+.sale-card:not(:last-child) {
+	margin-right: 27px;
+}
+
+.card-image {
+	max-width: 118px;
+	margin: 33px 0 46px 0;
+}
+
+.contacts {
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 85px;
+	background-color: #1a1a1a;
+	text-align: center;
+}
+
+.contacts-title {
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+}
+
+.contacts-description {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+	text-decoration: none;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #fff;
+}
+
+.contacts-text {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.14px;
+	margin-bottom: 20px;
+	margin-top: 65px;
+}
+
+.contacts-phone {
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 400;
+	text-decoration: none;
+	letter-spacing: 0.36px;
+}
+
+.footer-menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-menu-item:not(:last-child) {
+	margin-right: 40px;
+}
+
+.footer-menu-link {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: left;
+	letter-spacing: 0.18px;
+}
+
+.sale-cards {
+	margin-top: 75px;
+	margin-bottom: 40px;
+}
+
+.more {
+	letter-spacing: 0.14px;
+	font-weight: 400;
+	font-size: 14px;
+	color: #f24841;
+	text-align: center;
 }

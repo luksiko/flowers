@@ -2,8 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-	      name="viewport">
+	<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 	<title>Flowers - интернет-магазин цветов</title>
 	<link href="css/bootstrap-grid.min.css" rel="stylesheet">
@@ -50,30 +49,30 @@
 					<!-- Слайдер с цветами -->
 					<div class="swiper-wrapper">
 						<!-- Слайдеры -->
-						<div class="swiper-slide"><img alt="" class="slide-image" src="img/flowers/flower1.png"></div>
-						<div class="swiper-slide"><img alt="" class="slide-image" src="img/flowers/flower2.png"></div>
-						<div class="swiper-slide"><img alt="" class="slide-image" src="img/flowers/flower3.png"></div>
-						<div class="swiper-slide"><img alt="" class="slide-image" src="img/flowers/flower4.png"></div>
-						<div class="swiper-slide"><img alt="" class="slide-image" src="img/flowers/flower5.png"></div>
-						<div class="swiper-slide"><img alt="" class="slide-image" src="img/flowers/flower6.png"></div>
-						<div class="swiper-slide"><img alt="" class="slide-image" src="img/flowers/flower4.png"></div>
+						<div class="swiper-slide"><img alt="Цветок" class="slide-image" src="img/flowers/flower1.png"></div>
+						<div class="swiper-slide"><img alt="Цветок" class="slide-image" src="img/flowers/flower2.png"></div>
+						<div class="swiper-slide"><img alt="Цветок" class="slide-image" src="img/flowers/flower3.png"></div>
+						<div class="swiper-slide"><img alt="Цветок" class="slide-image" src="img/flowers/flower4.png"></div>
+						<div class="swiper-slide"><img alt="Цветок" class="slide-image" src="img/flowers/flower5.png"></div>
+						<div class="swiper-slide"><img alt="Цветок" class="slide-image" src="img/flowers/flower6.png"></div>
+						<div class="swiper-slide"><img alt="Цветок" class="slide-image" src="img/flowers/flower4.png"></div>
 					</div>
 					<!-- Стрелки навигации -->
 					<div class="slider-nav">
 						<div class="row justify-content-between">
 							<div class="col-1">
-								<div class="slider-button slider-button-prev">
+								<button class="slider-button slider-button-prev">
 									<svg height="14" viewBox="0 0 8 14" width="8">
 										<path d="M8 0v1L1 7.108 8 13v1L0 7.024z" fill="#fff"/>
 									</svg>
-								</div>
+								</button>
 							</div>
 							<div class="col-1">
-								<div class="slider-button slider-button-next">
+								<button class="slider-button slider-button-next">
 									<svg height="14" viewBox="0 0 8 14" width="8">
 										<path d="M0 0v1l7 6.108L0 13v1l8-6.976z" fill="#fff"/>
 									</svg>
-								</div>
+								</button>
 							</div>
 						</div>
 					</div>
@@ -126,18 +125,18 @@
 				<div class="container">
 					<div class="row justify-content-between">
 						<div class="col-1">
-							<div class="slider-button slider-button-prev">
+							<button class="slider-button slider-button-prev">
 								<svg height="34" viewBox="0 0 21 34" width="21">
 									<path d="M20 0h1L1 16.977 21 34h-1L0 17z" fill="#fff"/>
 								</svg>
-							</div>
+							</button>
 						</div>
 						<div class="col-1">
-							<div class="slider-button slider-button-next">
+							<button class="slider-button slider-button-next">
 								<svg height="34" viewBox="0 0 21 34" width="21">
 									<path d="M1 0H0l20 16.977L0 34h1l20-17z" fill="#fff"/>
 								</svg>
-							</div>
+							</button>
 						</div>
 					</div>
 					<!-- /.row col1 -->
@@ -147,7 +146,6 @@
 			<!-- /.slider-nav -->
 		</div>
 		<!-- ./swiper-container-->
-
 	</div>
 </section>
 <section class="advantages">
@@ -181,6 +179,61 @@
 		</div>
 	</div>
 </section>
+<section class="sale">
+	<div class="container">
+		<h3 class="sale-title">Собери свой букет <span class="text-color-red-sale ">прямо сейчас!</span></h3>
+		<p class="sale-description">Выберите желаемые цветы и наши флористы их оформят и доставят лично в руки!</p>
+		<div class="row sale-cards d-flex justify-content-center">
+			<div class="col sale-card d-flex flex-column">
+				<img alt="" class="card-image" src="img/card-rose.png">
+				<span class="card-title">Розы</span>
+				<span class="card-description">Выберите цвет:</span>
+				<span class="card-count">Количество:</span>
+			</div>
+			<div class="col sale-card"></div>
+			<div class="col sale-card"></div>
+			<div class="col sale-card"></div>
+		</div>
+		<a href="#" class="more">Все цветы</a>
+	</div>
+<!--	./container-->
+</section>
+
+<section class="contacts">
+	<div class="container">
+		<h3 class="contacts-title">ОСТАЛИСЬ ВОПРОСЫ?</h3>
+		<a class="contacts-description" href="#">ЗАКАЖИТЕ ЗВОНОК НАШЕГО флориста!</a>
+		<p class="contacts-text">или позвоните по телефону</p>
+		<a class="contacts-phone" href="tel:+78006548745">8 (800) 654-87-45</a>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row py-5">
+			<div class="col-md-6 mb-4 mb-xl-0">
+				<nav>
+					<ul class="footer-menu d-flex">
+						<li class="footer-menu-item"><a class="footer-menu-link" href="#">ДОСТАВКА</a></li>
+						<li class="footer-menu-item"><a class="footer-menu-link" href="#">ОПЛАТА</a></li>
+					</ul>
+				</nav>
+				<div class="footer-social d-flex">
+					<span class="footer-text">Присоединяйтесь к нам:</span>
+					<img alt="" src="img/vk.png">
+				</div>
+			</div>
+			<!-- /.col-3 -->
+			<div class="col-lg-3">
+				<span class="footer-text">Отдел обслуживания клиентов</span>
+				<a class="footer-phone" href="tel:+78006548745">8 (800) 654-87-45</a>
+				<span class="footer-text">Ежедневно, круглосуточно./span>
+			</div>
+			<!-- /.col-3 -->
+		</div>
+		<!-- /.row -->
+	</div>
+</footer>
 
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
