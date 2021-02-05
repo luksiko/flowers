@@ -106,12 +106,13 @@ body {
 .hero-title {
 	font-family: "Gotham Pro Medium", sans-serif;
 	text-align: center;
+	margin: auto auto 34px;
 	display: block;
 	font-size: 34px;
-	margin-bottom: 34px;
 	letter-spacing: 0.34px;
 	font-weight: 500;
 	text-transform: uppercase;
+	max-width: 692px;
 }
 
 .hero-description {
@@ -122,7 +123,8 @@ body {
 	text-align: center;
 	display: block;
 	text-transform: uppercase;
-	margin-top: 30px;
+	margin: auto;
+	max-width: 590px;
 }
 
 .flowers-slider {
@@ -282,6 +284,7 @@ img.slide-image {
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
+	padding: 50px 0;
 }
 
 .slider-button svg path:hover {
@@ -324,7 +327,7 @@ img.slide-image {
 }
 
 .card:not(:last-child) {
-	margin-right: 27px;
+	/*margin-right: 27px;*/
 }
 
 .card-label {
@@ -393,7 +396,7 @@ img.slide-image {
 	text-transform: uppercase;
 	letter-spacing: 0.3px;
 	text-decoration: none;
-	padding-bottom: 8px;
+	padding-bottom: 3px;
 	border-bottom: 1px solid #fff;
 }
 
@@ -541,3 +544,74 @@ img.slide-image {
 	text-decoration: none;
 	border-bottom: 1px solid #4c4c4c;
 }
+
+.modal {
+	display: none
+}
+
+.modal-title {
+	color: #292929
+}
+
+.modal-button {
+	width: 100%;
+}
+
+.modal-input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
+}
+.hidden{
+	display: none;
+	visibility: hidden;
+}
+@media (max-width: 768px) {
+	.header {
+		text-align: center;
+	}
+	.header-contacts {
+		text-align: center;
+	}
+	.hero {
+		padding-top: 50px;
+
+	}
+	.hero-title {
+		font-size: 24px;
+		margin-bottom: 20px;
+		line-height: 1.6;
+	}
+	.hero-description {
+		font-size: 16px;
+		line-height: 1.6;
+	}
+	.button {
+		padding: 20px 40px;
+	}
+	.colors {
+		max-width: 200px;
+		margin: auto;
+	}
+	.card-label {
+		margin: 10px auto;
+		display: block;
+	}
+	.footer-info {
+		text-align: left;
+	}
+}
+
+@media (max-width: 576px) {
+	.contacts {
+		text-align: left;
+	}
+	.contacts-description {
+		padding: 0;
+	}
+	.footer-info {
+		text-align: left;
+	}
+}
+
